@@ -2,3 +2,7 @@
     filter: brightness(60%);
     background-size: cover;
 }
+
+.custom-class-link {
+    text-decoration: none;
+}
