@@ -53,7 +53,42 @@
                             <a class="nav-link" href="#register">Register</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-info order-first order-md-last" type="submit">Register</button>
+                    <!-- Modal Nav Registation Added -->
+                    <div class="p-0">
+                        <button type="button" class="btn btn-outline-primary fw-semibold" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@join">Register
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Registation Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <input type="email" class="form-control" placeholder="Enter Your Email"
+                                                    id="register">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="password" class="form-control"
+                                                    placeholder="Enter an Unique Password" id="password">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Nav Modals -->
                 </div>
             </div>
         </nav>
