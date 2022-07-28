@@ -1,3 +1,4 @@
 .fillter-brghtness {
     filter: brightness(60%);
+    background-size: cover;
 }
